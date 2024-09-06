@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+select,
+input {
+  width: 94%;
+  padding: 10px;
+  margin: 10px 1px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  width: 99%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.reset {
+  background-color: #dc3545;
+  margin-top: 10px;
+}
+.result {
+  margin-top: 20px;
+  background: #e9ecef;
+  padding: 10px;
+  border-radius: 4px;
+}

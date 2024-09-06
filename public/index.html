@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Unit Converter</h2>
+      <form id="conversionForm">
+        <select id="conversionType" required>
+          <option value="length">Length</option>
+          <option value="temprature">Temperature</option>
+          <option value="weight">Weight</option>
+          <option value="volume">Volume</option>
+          <option value="area">Area</option>
+        </select>
+        <input type="number" id="value" placeholder="Enter value" required />
+        <input
+          type="text"
+          id="fromUnit"
+          placeholder="From unit (e.g., meter)"
+          required
+        />
+        <input
+          type="text"
+          id="toUnit"
+          placeholder="To unit (e.g., kilometer)"
+          required
+        />
+        <button type="submit">Convert</button>
+      </form>
+      <div id="result" class="result" style="display: none"></div>
+      <button id="resetButton" class="reset" style="display: none">
+        Reset
+      </button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
